@@ -1,0 +1,118 @@
+/* Global */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(https://img.freepik.com/vetores-gratis/hamburguer-realista-no-fundo-do-quadro_79603-1042.jpg);
+  margin: 0px;
+  padding: 20px;
+  background-color: rgba(0, 1, 2, 255);
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Img */
+
+img {
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* Fonts */
+
+h1,
+h3,
+.price {
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+h2 {
+  color: white;
+  border: solid;
+  border-color: rgba(244, 114, 51, 255);
+  border-radius: 10px 20px;
+}
+
+/* Header */
+
+header {
+  padding: 32px 0;
+}
+
+header,
+section {
+  background-color: rgba(0, 1, 2, .96);
+  max-width: 300px;
+  margin: auto;
+  
+}
+
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+  color: yellow;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fdfbfbb2;
+}
+
+/* Section */
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: rgba(0, 1, 2, );
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 24px;
+  box-shadow:  1px 1px 4px 4px rgba(244, 114, 51, 0.5);
+}
+
+/* Lista */
+
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+  box-shadow: 0 4px 4px 0px rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+
+li .details {
+  max-width: 240px;
+}
+
+.details h3 {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.details p {
+  color: white;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  font-size: 14px;
+  line-height: 21px;
+}
